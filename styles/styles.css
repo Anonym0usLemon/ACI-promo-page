@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #414141;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.modal {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  height: auto;
+  padding-inline: 20px;
+  padding-block: 25px;
+  margin-inline: 15px;
+  margin-block: 20px;
+  border-radius: 10px;
+  border: 3px solid #E3A336;
+  max-width: 500px;
+  box-sizing: border-box;
+}
+.modal .logo-link img {
+  height: 80px;
+  width: 80px;
+}
+.modal .logo-link:hover {
+  transform: scale(0.96);
+  transition: 0.3s ease-in-out;
+}
+.modal .email-form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-block: 25px;
+  text-align: center;
+}
+.modal .email-form label .tiny {
+  font-size: 15px;
+}
+.modal .email-form .container {
+  position: relative;
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+}
+.modal .email-form .container input {
+  position: relative;
+  top: 0;
+  height: 50px;
+  width: 90%;
+  background-color: #D9D9D9;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.modal .email-form .container button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateY(5px);
+  background-color: #12A396;
+  color: white;
+  border: none;
+  padding: 13px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  opacity: 0.9;
+}
+.modal .email-form .container button:hover {
+  transform: scale(0.96);
+  transition: 0.3s ease-in-out;
+}
+.modal .promo {
+  width: 100%;
+  margin-bottom: 20px;
+  max-width: 430px;
+}
+.modal .promo img {
+  width: 100%;
+}/*# sourceMappingURL=styles.css.map */
